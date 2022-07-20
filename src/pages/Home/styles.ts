@@ -6,6 +6,7 @@ export const HomeContainer = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0 0 3rem 0;
 
   form {
     display: flex;
@@ -13,7 +14,13 @@ export const HomeContainer = styled.main`
     align-items: center;
     gap: 3.5rem;
   }
+
+  @media (max-width: 700px) {
+    justify-content: start;
+    margin-top: 2rem;
+  }
 `
+
 const BaseButtonCountdown = styled.button`
   width: 100%;
   height: 4rem;
