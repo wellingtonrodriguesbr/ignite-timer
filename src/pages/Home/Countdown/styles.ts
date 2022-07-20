@@ -7,17 +7,7 @@ export const CountdownContainer = styled.div`
   color: ${(props) => props.theme['gray-100']};
   display: flex;
   align-items: center;
-
-  div {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-
-    @media (max-width: 700px) {
-      gap: 0;
-    }
-  }
+  gap: 1rem;
 
   span {
     background-color: ${(props) => props.theme['gray-700']};
@@ -25,14 +15,14 @@ export const CountdownContainer = styled.div`
     padding: 4rem 1rem;
 
     @media (max-width: 700px) {
-      margin: 0 4px;
+      padding: 3rem 1rem;
     }
   }
 
   @media (max-width: 700px) {
-    flex-direction: column;
-    font-size: 5rem;
+    font-size: 3rem;
     line-height: 0;
+    gap: 0.2rem;
   }
 `
 

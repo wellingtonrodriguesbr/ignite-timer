@@ -49,7 +49,7 @@ export const HistoryList = styled.div`
       border-top: 4px solid ${(props) => props.theme['gray-800']};
       padding: 1rem;
       font-size: 0.875rem;
-      line-height: 1.6;
+      line-height: 1.3;
 
       &:first-child {
         width: 50%;

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const HomeContainer = styled.main`
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +17,7 @@ export const HomeContainer = styled.main`
 
   @media (max-width: 700px) {
     justify-content: start;
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 `
 

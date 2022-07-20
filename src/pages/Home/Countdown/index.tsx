@@ -59,15 +59,12 @@ export function Countdown() {
 
   return (
     <CountdownContainer>
-      <div>
-        <span>{minutes[0]}</span>
-        <span>{minutes[1]}</span>
-      </div>
+      <span>{minutes[0]}</span>
+      <span>{minutes[1]}</span>
+
       <Separator>:</Separator>
-      <div>
-        <span>{seconds[0]}</span>
-        <span>{seconds[1]}</span>
-      </div>
+      <span>{seconds[0]}</span>
+      <span>{seconds[1]}</span>
     </CountdownContainer>
   )
 }

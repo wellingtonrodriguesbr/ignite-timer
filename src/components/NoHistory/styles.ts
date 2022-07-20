@@ -13,6 +13,10 @@ export const NoHistoryContainer = styled.div`
     opacity: 0.7;
     text-align: center;
     font-weight: 400;
+
+    @media (max-width: 700px) {
+      font-size: 1rem;
+    }
   }
 `
 
